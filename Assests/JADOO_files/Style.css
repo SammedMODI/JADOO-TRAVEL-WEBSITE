@@ -1,0 +1,331 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(/Assests/Decore/Decore.png);
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.contanier {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+header {
+  padding: 0;
+  display: flex;
+  margin-top: 32px;
+}
+nav {
+  /* background-color: pink; */
+  flex-grow: 1;
+}
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 4em;
+  /* background-color: lightblue; */
+  float: right;
+}
+.nav-list li:nth-child(6) {
+  border-width: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  padding: 8px;
+  border-radius: 2px;
+  margin: -8px;
+}
+.nav-list a {
+  text-decoration: none;
+  color: black;
+}
+.main-section {
+  display: flex;
+  margin-top: 1.8em;
+}
+.main-button {
+  display: flex;
+}
+/* content section */
+.hero-content h2 {
+  font-size: 20px;
+  color: hsla(10, 69%, 60%, 1);
+  margin-top: 112px;
+  margin-bottom: 24px;
+}
+.hero-content h1 {
+  text-align: left;
+  font: normal normal bold 84px/89px Volkhov;
+  letter-spacing: -3px;
+  color: hsla(233, 52%, 19%, 1);
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.hero-content p {
+  text-align: left;
+  font: normal normal medium 16px/30px Poppins;
+  letter-spacing: 0px;
+  color: hsla(233, 16%, 44%, 1);
+  margin-top: 0;
+  margin-bottom: 34px;
+}
+.find-more button {
+  padding: 12px 18px;
+  background-color: orange;
+  color: white;
+  margin-right: 2rem;
+  border: none;
+  border-radius: 4px;
+}
+.cta button {
+  padding: 12px 18px;
+  background-color: hsla(10, 69%, 60%, 1);
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------- */
+/* 
+These are for the underline
+.hero-content h1 span {
+  position: relative;
+}
+.hero-content h1 span ::after {
+  content: " hello";
+  position: absolute;
+  width: 20px;
+  border-bottom: 5px solid black;
+  /* background: url(/Assests/Underline.svg) no-repeat; */
+
+/* --------------------------------------------------------------------------------------------------------------------------- */
+
+/* Section Second */
+.second-section {
+  background-image: url(/Assests/section2-back.svg);
+  /* background-attachment: fixed; */
+  background-position: right top;
+  background-repeat: no-repeat;
+  margin-top: 105px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.second-title {
+  text-align: center;
+  padding-top: 2px;
+}
+.second-title h3 {
+  text-align: center;
+  font: normal normal 600 18px/27px Poppins;
+  letter-spacing: 0px;
+  color: #5e6282;
+  margin-bottom: 0;
+}
+.second-title h2 {
+  text-align: center;
+  font: normal normal bold 50px/60px Volkhov;
+  letter-spacing: 0px;
+  color: #14183e;
+  margin-top: 2px;
+}
+.cat-cards {
+  display: flex;
+}
+.cat-cards .cards {
+  text-align: center;
+  padding: 2em;
+  gap: 1em;
+  margin-top: 2em;
+}
+.cards:nth-child(2) {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 52px 46px #00000012;
+  border-radius: 36px;
+}
+.cards:nth-child(3) {
+  margin-top: -2.5em;
+  border-radius: 36px;
+}
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* 3rd Section */
+.third-section {
+  margin-top: 156px;
+  margin-bottom: 186px;
+}
+.third-title {
+  text-align: center;
+}
+.third-title h3 {
+  font: normal normal 600 18px/27px Poppins;
+  letter-spacing: 0px;
+  color: #5e6282;
+  margin-bottom: 0;
+}
+.third-title h2 {
+  margin-top: 8px;
+  font: normal normal bold 50px/60px Volkhov;
+  letter-spacing: 0px;
+  color: #14183e;
+  margin-bottom: 60px;
+}
+.des-card {
+  display: flex;
+  gap: 6.5em;
+  height: 590px;
+  width: 315px;
+}
+.IMG {
+  margin: -2.3em;
+}
+.img-content {
+  display: flex;
+  padding: 0 1em;
+}
+.one {
+  gap: 7.8em;
+}
+.two {
+  gap: 0.5em;
+}
+.des-cards {
+  box-shadow: 0px 16px 26px #00000017;
+  border-radius: 24px;
+}
+.des-cards h3 {
+  font: normal normal medium 18px/22px Poppins;
+  letter-spacing: 0px;
+  color: #5e6282;
+}
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* 4rd Section */
+.fourth-section {
+  margin-bottom: 209px;
+}
+.fourth-content {
+  display: flex;
+  gap: 10em;
+}
+.fourth-title h3 {
+  text-align: left;
+  font: normal normal 600 18px/27px Poppins;
+  letter-spacing: 0px;
+  color: #5e6282;
+  margin-bottom: 0;
+}
+.fourth-title h2 {
+  text-align: left;
+  font: normal normal bold 50px/60px Volkhov;
+  letter-spacing: 0px;
+  color: #14183e;
+  margin-top: 15px;
+  margin-bottom: 1.2em;
+}
+.element {
+  display: flex;
+}
+.element h2 {
+  text-align: left;
+  font: normal normal bold 16px/19px Poppins;
+  letter-spacing: 0px;
+  color: #5e6282;
+  margin: 3.5px;
+}
+.element h2 span {
+  text-align: left;
+  font: normal normal normal 16px/19px Poppins;
+  letter-spacing: 0px;
+  color: #5e6282;
+  margin: 0;
+}
+.split {
+  margin-bottom: 3em;
+}
+.right-card {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 22px 26px #0000001a;
+  border-radius: 26px;
+  padding: 1.5em;
+}
+.right-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right-card h2 {
+  text-align: left;
+  font: normal normal medium 18px/22px Poppins;
+  letter-spacing: 0px;
+  color: #080809;
+  margin: 0em;
+  margin-top: 26px;
+}
+.right-card p {
+  text-align: left;
+  font: normal normal medium 16px/19px Poppins;
+  letter-spacing: 0px;
+  color: #84829a;
+}
+.info {
+  display: flex;
+  gap: 1.6em;
+}
+.card-line {
+  display: flex;
+  gap: 4px;
+}
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* 5th Section */
+.fifth-section {
+  display: flex;
+  gap: 24em;
+  margin-bottom: 170px;
+}
+.fifth-right-card {
+  padding: 2em;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 12px 26px #0000001a;
+  border-radius: 10px;
+  width: 504px;
+  height: 245px;
+}
+/* --------------------------------------------------------------------------------------------------------------------- */
+/* 6th Section */
+.sixth-section {
+  background: hsl(254, 74%, 96%) 0% 0% no-repeat padding-box;
+  border-radius: 60px 20px 20px 20px;
+  padding: 6em;
+  text-align: center;
+  margin-bottom: 187px;
+  background-image: url(/Assests/section2-back.svg);
+  /* background-attachment: fixed; */
+  background-position: right top;
+  background-repeat: no-repeat;
+}
+.sixth-section input {
+  border-style: none;
+  padding: 1em 2em;
+}
+.sixth-section button {
+  border-style: none;
+  padding: 1em 2em;
+  background: transparent linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
+  color: white;
+}
+.sixth-section h2 {
+  color: #5e6282;
+}
+.sixth-section img {
+  align-items: left;
+}
+/* ------------------- The Footer Section --------------------------------------------------------------------------------- */
+footer {
+  display: flex;
+}
+footer ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
